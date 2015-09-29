@@ -2,10 +2,10 @@
 репозитория*/
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Calculate two numbers:");
-        int one = Integer.valueOf(args[0]);
-        int two = Integer.valueOf(args[1]);
-        int result = one + two;
+        System.out.println("Raised by the power (enter two number, separated by a space): ");
+        double one = Double.valueOf(args[0]);
+        double two = Double.valueOf(args[1]);
+        double result = java.lang.StrictMath.pow(one, two);
         System.out.println(result);
     }
 }
